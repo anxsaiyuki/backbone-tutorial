@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <script src="./node_modules/jquery/dist/jquery.js"></script>
-  <script src="./node_modules/backbone/node_modules/underscore/underscore.js"></script>
-  <script src="./node_modules/backbone/backbone.js"></script>
-</head>
-
-<body>
-  <button class="add">Add</button>
-  <button class="remove">Remove</button>
-</body>
-
-<script>
-
 var startApp = function() {
   var ListView = Backbone.View.extend({
     el: $('body'),
@@ -49,5 +34,3 @@ var startApp = function() {
 };
 
 startApp();
-</script>
-</html>
